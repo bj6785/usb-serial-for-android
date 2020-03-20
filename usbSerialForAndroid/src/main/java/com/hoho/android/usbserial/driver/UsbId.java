@@ -75,6 +75,9 @@ public final class UsbId {
     public static final int VENDOR_ARM = 0x0d28;
     public static final int ARM_MBED = 0x0204;
 
+    public static final int VERIFONE_UART_VID = 0x11CA;
+    public static final int VERIFONE_UART_PID = 0x0204;
+
     private UsbId() {
         throw new IllegalAccessError("Non-instantiable class");
     }

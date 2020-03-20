@@ -322,6 +322,10 @@ public class Cp21xxSerialDriver implements UsbSerialDriver {
             UsbId.SILABS_CP2108,
             UsbId.SILABS_CP2110
         });
+        supportedDevices.put(UsbId.VERIFONE_UART_VID,
+                new int[]{
+                        UsbId.VERIFONE_UART_PID,
+                });
         return supportedDevices;
     }
 
